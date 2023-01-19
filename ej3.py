@@ -1,8 +1,4 @@
 class Artefactosvaliosos(object):
-    nombre = input("")
-    peso = input("")
-    precio = input("")
-    fechacaducidad = input("")
 
     def __init__(self,nombre,peso,precio,fechacaducidad):
         self.nombre = nombre
